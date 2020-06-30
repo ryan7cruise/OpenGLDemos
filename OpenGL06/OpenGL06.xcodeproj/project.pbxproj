@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA41040324AB375D005DE1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA41040224AB375D005DE1C0 /* Assets.xcassets */; };
+		BA41041124AB3BA3005DE1C0 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA41041024AB3BA3005DE1C0 /* main.mm */; };
+		BA41041424AB3C25005DE1C0 /* stone.tga in Resources */ = {isa = PBXBuildFile; fileRef = BA41041324AB3C25005DE1C0 /* stone.tga */; };
+		FB18A09CA1D3317347BC8E3F /* Pods_OpenGL06.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A1FB13EEC1863E3E9B4561 /* Pods_OpenGL06.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA4103F924AB375B005DE1C0 /* OpenGL06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL06.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA41040224AB375D005DE1C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA41040724AB375D005DE1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA41040A24AB375D005DE1C0 /* OpenGL06.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL06.entitlements; sourceTree = "<group>"; };
+		BA41041024AB3BA3005DE1C0 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		BA41041324AB3C25005DE1C0 /* stone.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = stone.tga; sourceTree = "<group>"; };
+		C9A1FB13EEC1863E3E9B4561 /* Pods_OpenGL06.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGL06.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5961C4B574F491B6F101878 /* Pods-OpenGL06.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL06.debug.xcconfig"; path = "Target Support Files/Pods-OpenGL06/Pods-OpenGL06.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2E65A2466BF36BEA95CA07 /* Pods-OpenGL06.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL06.release.xcconfig"; path = "Target Support Files/Pods-OpenGL06/Pods-OpenGL06.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA4103F624AB375B005DE1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB18A09CA1D3317347BC8E3F /* Pods_OpenGL06.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41879C4D14FA358D54D985EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A1FB13EEC1863E3E9B4561 /* Pods_OpenGL06.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA4103F024AB375B005DE1C0 = {
+			isa = PBXGroup;
+			children = (
+				BA4103FB24AB375B005DE1C0 /* OpenGL06 */,
+				BA4103FA24AB375B005DE1C0 /* Products */,
+				D0FD949EE3932A7E69C93F7A /* Pods */,
+				41879C4D14FA358D54D985EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA4103FA24AB375B005DE1C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA4103F924AB375B005DE1C0 /* OpenGL06.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4103FB24AB375B005DE1C0 /* OpenGL06 */ = {
+			isa = PBXGroup;
+			children = (
+				BA41040224AB375D005DE1C0 /* Assets.xcassets */,
+				BA41040724AB375D005DE1C0 /* Info.plist */,
+				BA41040A24AB375D005DE1C0 /* OpenGL06.entitlements */,
+				BA41041024AB3BA3005DE1C0 /* main.mm */,
+				BA41041224AB3C01005DE1C0 /* tga */,
+			);
+			path = OpenGL06;
+			sourceTree = "<group>";
+		};
+		BA41041224AB3C01005DE1C0 /* tga */ = {
+			isa = PBXGroup;
+			children = (
+				BA41041324AB3C25005DE1C0 /* stone.tga */,
+			);
+			path = tga;
+			sourceTree = "<group>";
+		};
+		D0FD949EE3932A7E69C93F7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5961C4B574F491B6F101878 /* Pods-OpenGL06.debug.xcconfig */,
+				DF2E65A2466BF36BEA95CA07 /* Pods-OpenGL06.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA4103F824AB375B005DE1C0 /* OpenGL06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA41040D24AB375D005DE1C0 /* Build configuration list for PBXNativeTarget "OpenGL06" */;
+			buildPhases = (
+				34CF166FEBAD3D0A387E7B59 /* [CP] Check Pods Manifest.lock */,
+				BA4103F524AB375B005DE1C0 /* Sources */,
+				BA4103F624AB375B005DE1C0 /* Frameworks */,
+				BA4103F724AB375B005DE1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenGL06;
+			productName = OpenGL06;
+			productReference = BA4103F924AB375B005DE1C0 /* OpenGL06.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA4103F124AB375B005DE1C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Yuchen Peng";
+				TargetAttributes = {
+					BA4103F824AB375B005DE1C0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = BA4103F424AB375B005DE1C0 /* Build configuration list for PBXProject "OpenGL06" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA4103F024AB375B005DE1C0;
+			productRefGroup = BA4103FA24AB375B005DE1C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA4103F824AB375B005DE1C0 /* OpenGL06 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA4103F724AB375B005DE1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA41041424AB3C25005DE1C0 /* stone.tga in Resources */,
+				BA41040324AB375D005DE1C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34CF166FEBAD3D0A387E7B59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGL06-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA4103F524AB375B005DE1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA41041124AB3BA3005DE1C0 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA41040B24AB375D005DE1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA41040C24AB375D005DE1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA41040E24AB375D005DE1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5961C4B574F491B6F101878 /* Pods-OpenGL06.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL06/OpenGL06.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGL06/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sina.OpenGL06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA41040F24AB375D005DE1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2E65A2466BF36BEA95CA07 /* Pods-OpenGL06.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL06/OpenGL06.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				INFOPLIST_FILE = OpenGL06/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sina.OpenGL06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA4103F424AB375B005DE1C0 /* Build configuration list for PBXProject "OpenGL06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA41040B24AB375D005DE1C0 /* Debug */,
+				BA41040C24AB375D005DE1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA41040D24AB375D005DE1C0 /* Build configuration list for PBXNativeTarget "OpenGL06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA41040E24AB375D005DE1C0 /* Debug */,
+				BA41040F24AB375D005DE1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA4103F124AB375B005DE1C0 /* Project object */;
+}
